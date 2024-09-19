@@ -1,0 +1,82 @@
+.main-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #001019;
+    gap: 24px;
+}
+.merodi-logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.merodi-logo-container p {
+    color: #E4E4E4;
+
+}
+.house-logo-div {
+    width: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+}
+.house-logo-div p {
+    color: #F48C06;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.main-playlist-div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.add-playlist-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-playlist-div input {
+    color:#67727E;
+    background-color: #001019;
+    border: none;
+    outline: none;
+}
+.favorite-playlist-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.favorite-playlist-div img {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+}
+.playlist-songs-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.playlist-songs-div p {
+    color: #E4E4E4;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.playlist-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+.playlist-button p {
+    color: #67727E;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
